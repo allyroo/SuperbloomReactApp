@@ -1,0 +1,40 @@
+#cursive_font {
+  font-family: "Zapfino", cursive;
+  font-weight: bold;
+  font-size: 130px;
+  padding-top: 200px;
+  color: rgb(250, 217, 30);
+  margin-bottom: -190px;
+}
+
+#super-you {
+  color: #ffffff;
+  text-align: end;
+  font-size: 20px;
+  padding-top: 150px;
+  align-content: 300px;
+}
+#home__page {
+  display: flex;
+  /* justify-content: center; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/bloom.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 66%;
+}
+#home__nocontent {
+  float: left;
+  width: 50%;
+}
+
+#home__content {
+  /* background-color: rgba(179, 179, 179, 0.516); */
+  float: right;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  right: 200px;
+  top: 100px;
+}

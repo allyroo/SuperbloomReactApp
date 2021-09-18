@@ -1,0 +1,178 @@
+#journal__border {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #707070;
+}
+
+#journal__benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "developer developer__img"
+    "intention intentional__img"
+    "celebration celebration__img"
+    "emotion accountability__img";
+  height: 80%;
+  margin: 31px 0px;
+  margin-left: 10px;
+  overflow-y: scroll;
+  color: #707070;
+}
+
+#benefits__title {
+  grid-area: title;
+  margin: 0px 0px 40px 40px;
+  font-size: 41px;
+  color: #707070;
+}
+
+/* styling used for description containers and images */
+
+.containers {
+  margin: 0 40px;
+}
+
+.image__container {
+  display: flex;
+  justify-content: center;
+  width: 488px;
+  height: 230px;
+  border-radius: 17px;
+  margin: 0px 40px 30px 40px;
+}
+
+.images {
+  justify-self: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Page's styles of the subtitles and descriptions */
+
+#create__journal h3 {
+  margin: 0px;
+  font-size: 24px;
+  color: #707070;
+}
+
+#create__journal p {
+  font-size: 16px;
+  color: #707070;
+}
+
+/* These are the divs that contain the title and description */
+
+#developer__container {
+  grid-area: developer;
+  margin-right: 20px;
+}
+
+#intentional__container {
+  grid-area: intention;
+  margin-left: 20px;
+}
+
+#celebration__container {
+  grid-area: celebration;
+  margin-right: 20px;
+}
+
+#accountability__container {
+  grid-area: emotion;
+  margin-left: 20px;
+}
+
+/* These are the divs that contain the images */
+#developer__img__container {
+  background-color: indigo;
+  margin-right: 20px;
+}
+
+#developer__img {
+  grid-area: developer__img;
+  background-image: url("../../images/developer.png");
+  width: 488px;
+  height: 230px;
+  border-radius: 17px;
+}
+
+#consistency__img__container {
+  background-color: indigo;
+  margin-right: 20px;
+}
+
+#consistency__img {
+  grid-area: consistency__img;
+  background-image: url("../../images/consistency.png");
+  width: 488px;
+  height: 230px;
+  border-radius: 17px;
+}
+
+#intentional__img__container {
+  background-color: indigo;
+  margin-right: 20px;
+}
+
+#intentional__img {
+  grid-area: intentional__img;
+  background-image: url("../../images/consistency.png");
+  width: 488px;
+  height: 230px;
+  border-radius: 17px;
+}
+
+#celebration__img__container {
+  background-color: indigo;
+  margin-right: 20px;
+}
+
+#celebration__img {
+  grid-area: celebration__img;
+  background-image: url("../../images/celebration.png");
+  width: 488px;
+  height: 230px;
+  border-radius: 17px;
+}
+
+#accountability__img__container {
+  background-color: indigo;
+  margin-left: 20px;
+}
+
+#accountability__img {
+  grid-area: accountability__img;
+  background-image: url("../../images/accountability.png");
+  width: 488px;
+  height: 230px;
+  border-radius: 17px;
+}
+
+#credit {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#credit h1 {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid indigo;
+  padding-bottom: 0.5rem;
+}
+
+#credit a {
+  color: #66a0eb;
+  text-decoration: none;
+  transition: color 0.2s;
+  margin: 0.3em 0;
+}
+
+#credit a:hover {
+  color: #2678e4;
+}

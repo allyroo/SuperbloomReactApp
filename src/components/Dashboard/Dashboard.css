@@ -1,0 +1,139 @@
+.dashboard {
+  font-family: "Roboto", "Helvetica Neue";
+  display: flex;
+  background: rgb(240,240,240);
+background: linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(186,209,177,1) 100%);
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+}
+
+/* creating grid */
+.gallery {
+  width: 80%;
+  height: 90%;
+  display: grid;
+  margin: 3rem auto;
+  text-align: center;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(12, 3vw);
+  grid-gap: 1rem;
+}
+
+/* .box_title {
+  margin: 10%;
+  font-size: 200%;
+} */
+
+.app-title {
+  font-size: 400%;
+  font-family: "Roboto";
+}
+
+#profile {
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  border-radius: 10px;
+  box-shadow: 2px 2px #a5a5a5;
+  background-image: url("../../images/ct-logo.png");
+  /* margin: 0 auto; */
+}
+#profile {
+  background-image: url("../../images/ct-logo.png");
+}
+#smartGoalBox {
+  background-color: white;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: 2px 2px #a5a5a5;
+}
+#smartGoalCategory {
+  color: olive;
+  font-size: 30px;
+}
+#smartGoal {
+  font-size: 20px;
+  padding: 10px;
+}
+.toDoList {
+  background-color: white;
+  grid-column-start: 8;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  border-radius: 10px;
+  box-shadow: 2px 2px #a5a5a5;
+}
+.quoteAPI {
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  border-radius: 10px;
+  box-shadow: 2px 2px #a5a5a5;
+  font-size: 30px;
+  color: olive;
+  padding: 10px;
+}
+
+.journal {
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 7;
+  grid-row-end: 13;
+  border-radius: 10px;
+  box-shadow: 2px 2px #a5a5a5;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.journalEntries {
+  margin: 10px 10px 10px 10px;
+}
+
+.habitEntries {
+  padding: 20px;
+  background-color: white;
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 7;
+  grid-row-end: 13;
+  border-radius: 10px;
+  box-shadow: 2px 2px #a5a5a5;
+  text-align: center;
+}
+.w3-table-all {
+  text-align: center;
+}
+
+/* .humidityBox {
+  background-color: white;
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 4;
+  grid-row-end: 8;
+  border-radius: 25px;
+} */
+
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  box-shadow: 2px 2px #a5a5a5;
+}

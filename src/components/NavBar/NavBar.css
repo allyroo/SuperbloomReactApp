@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #7e7630;
+}
+
+.wrap {
+  padding: 0rem;
+}
+
+nav container {
+  background-color: #7e7630;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+nav container ul,
+nav container .nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+nav container li a {
+  padding: 8px;
+  letter-spacing: 0.2rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  transition: color 150ms ease-out;
+}
+nav container li a:hover {
+  color: grey;
+}

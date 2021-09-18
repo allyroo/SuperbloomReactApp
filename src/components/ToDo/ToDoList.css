@@ -1,0 +1,47 @@
+/* body {
+  background: lightyellow;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+} */
+
+.btn {
+  background: olive;
+  margin: 30px;
+}
+
+.add-btn {
+  background: olive;
+  width: 20px;
+  height: 20px;
+}
+.app-title {
+  text-align: center;
+  color: olive;
+  font-size: 30px;
+}
+.container {
+  text-align: center;
+  height: 100%;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 220px;
+}
+.listItem {
+  text-decoration: none;
+}
+
+.scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+/* // style={{
+    //   padding: 30,
+    //   textAlign: "center",
+    //   maxWidth: 500,
+    //   margin: "auto",
+    // }} */
