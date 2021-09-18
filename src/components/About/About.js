@@ -1,12 +1,26 @@
 import React from "react";
 import "./About.css";
 
+// function About() {
+//   return (
+
+//     <div id="intentional__container" className="containers">
+//       <h3 id="intentional__title">Improves Immune Function</h3>
+//       <p id="intentional__description">
+//         Those who journal boast improved immune system functioning (it
+//         strengthens immune cells!) as well as lessened symptoms of asthma and
+//         rheumatoid arthritis.
+//       </p>
+//     </div>
+//   );
+// }
+
 const About = () => {
   return (
-    <div id="journal">
-      <div id="journal__border"></div>
+    <div id="habits">
+      <div id="habits__border"></div>
 
-      <div id="journal__benefits">
+      <div id="habits__benefits">
         <div id="benefits__title">The Power of Habits</div>
 
         <div id="developer__container" className="containers">

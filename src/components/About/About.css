@@ -1,12 +1,4 @@
-#journal__border {
-  display: flex;
-  align-items: center;
-  height: 80px;
-  width: 100%;
-  border-bottom: 1px solid #707070;
-}
-
-#journal__benefits {
+#habits__benefits {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -22,7 +14,7 @@
   color: #707070;
 }
 
-#benefits__title {
+#habits__title {
   grid-area: title;
   margin: 0px 0px 40px 40px;
   font-size: 41px;
@@ -50,20 +42,7 @@
   background-repeat: no-repeat;
 }
 
-/* Page's styles of the subtitles and descriptions */
-
-#create__journal h3 {
-  margin: 0px;
-  font-size: 24px;
-  color: #707070;
-}
-
-#create__journal p {
-  font-size: 16px;
-  color: #707070;
-}
-
-/* These are the divs that contain the title and description */
+/* Title + Description of Divs */
 
 #developer__container {
   grid-area: developer;
@@ -85,7 +64,7 @@
   margin-left: 20px;
 }
 
-/* These are the divs that contain the images */
+/* Image Containers */
 #developer__img__container {
   background-color: indigo;
   margin-right: 20px;
