@@ -1,10 +1,13 @@
+.habits {
+  vertical-align: center;
+}
 #habits__benefits {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "title title"
-    "developer developer__img"
     "intention intentional__img"
+    "developer developer__img"
     "celebration celebration__img"
     "emotion accountability__img";
   height: 80%;
@@ -14,7 +17,7 @@
   color: #707070;
 }
 
-#habits__title {
+#benefits__title {
   grid-area: title;
   margin: 0px 0px 40px 40px;
   font-size: 41px;
@@ -24,7 +27,7 @@
 /* styling used for description containers and images */
 
 .containers {
-  margin: 0 40px;
+  margin: 0 110px;
 }
 
 .image__container {
@@ -45,13 +48,12 @@
 /* Title + Description of Divs */
 
 #developer__container {
+  padding-top: 30px;
   grid-area: developer;
-  margin-right: 20px;
 }
 
 #intentional__container {
   grid-area: intention;
-  margin-left: 20px;
 }
 
 #celebration__container {
@@ -61,13 +63,12 @@
 
 #accountability__container {
   grid-area: emotion;
-  margin-left: 20px;
+  padding-left: 30px;
 }
 
 /* Image Containers */
 #developer__img__container {
-  background-color: indigo;
-  margin-right: 20px;
+  background-color: olive;
 }
 
 #developer__img {
@@ -79,7 +80,7 @@
 }
 
 #consistency__img__container {
-  background-color: indigo;
+  background-color: olive;
   margin-right: 20px;
 }
 
@@ -92,8 +93,7 @@
 }
 
 #intentional__img__container {
-  background-color: indigo;
-  margin-right: 20px;
+  background-color: olive;
 }
 
 #intentional__img {
@@ -105,8 +105,7 @@
 }
 
 #celebration__img__container {
-  background-color: indigo;
-  margin-right: 20px;
+  background-color: olive;
 }
 
 #celebration__img {
@@ -118,8 +117,7 @@
 }
 
 #accountability__img__container {
-  background-color: indigo;
-  margin-left: 20px;
+  background-color: olive;
 }
 
 #accountability__img {
@@ -141,12 +139,12 @@
   margin: 0px;
   margin-bottom: 10px;
   font-size: 20px;
-  border-bottom: 1px solid indigo;
+  border-bottom: 1px solid olive;
   padding-bottom: 0.5rem;
 }
 
 #credit a {
-  color: #66a0eb;
+  color: plum;
   text-decoration: none;
   transition: color 0.2s;
   margin: 0.3em 0;

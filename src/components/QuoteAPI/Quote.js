@@ -11,44 +11,46 @@
 // }
 // getQuote(api_url);
 
-///////
+/////
 
-// import React, { useState, useEffect } from "react";
-// import "./Quote.css";
-// import axios from "axios";
+import React, { useState, useEffect } from "react";
+import "./Quote.css";
+import axios from "axios";
 
-// const quoteAPI = () => {
-//   const [quote, setQuote] = useState("");
-//   const [author, setAuthor] = useState("");
+const quoteAPI = () => {
+  const [quote, setQuote] = useState("");
+  const [author, setAuthor] = useState("");
 
-//   const quoteAPI = async () => {
-//     let arrayOfQuotes = [];
-//     try {
-//       const data = axios.get("https://api.quotable.io/random");
-//       arrayOfQuote = data.data;
-//     } catch (error) {
-//       console.log(error);
-//     }
+  const quoteAPI = async () => {
+    let arrayOfQuotes = [];
+    try {
+      const data = axios.get("https://api.quotable.io/random");
+      arrayOfQuote = data.data;
+    } catch (error) {
+      console.log(error);
+    }
 
-//     try {
-//       setQuote(arrayOfQuotes.content);
-//       setAuther(arrayOfQuotes.author);
-//     } catch (error) {
-//       console.log(error);
-//     }
-//   };
+    try {
+      setQuote(arrayOfQuotes.content);
+      setAuther(arrayOfQuotes.author);
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
-//   useEffect(() => {
-//     quoteAPI();
-//   }, []);
+  useEffect(() => {
+    quoteAPI();
+  }, []);
 
-//   return (
-//     <div className="Quote">
-//       {quote}
-//       {author}
-//       <button onClick={quoteAPI}>Click quote</button>
-//     </div>
-//   );
-// };
+  return (
+    <div className="Quote">
+      {quote}
+      {author}
+      <button onClick={quoteAPI}>Click quote</button>
+    </div>
+  );
+};
 
-// export default quoteAPI;
+export default quoteAPI;
+
+Inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>

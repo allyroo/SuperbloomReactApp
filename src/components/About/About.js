@@ -17,11 +17,20 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div id="habits">
-      <div id="habits__border"></div>
-
+    <div class="habits">
       <div id="habits__benefits">
         <div id="benefits__title">The Power of Habits</div>
+
+        <div id="consistency__container" className="containers">
+          <h3 id="consistency__title">Start Small</h3>
+          <p id="consistency__description">
+            A habit doesn’t have to be astronomical in size to be considered
+            successful. Consistency is more important than how much you do
+            something or the size of the task at hand. For example, you could
+            start with a mini habit of making your bed in the morning versus
+            making sure your entire house is spotless every day of the week.
+          </p>
+        </div>
 
         <div id="developer__container" className="containers">
           <h3 id="developer__title">Consistency is Key</h3>
@@ -35,17 +44,6 @@ const About = () => {
 
         <div id="developer__img__container" className="image__container">
           <div id="developer__img" className="images"></div>
-        </div>
-
-        <div id="consistency__container" className="containers">
-          <h3 id="consistency__title">Start Small</h3>
-          <p id="consistency__description">
-            A habit doesn’t have to be astronomical in size to be considered
-            successful. Consistency is more important than how much you do
-            something or the size of the task at hand. For example, you could
-            start with a mini habit of making your bed in the morning versus
-            making sure your entire house is spotless every day of the week.
-          </p>
         </div>
 
         {/* <div id="intentional__container" className="containers">
@@ -72,10 +70,9 @@ const About = () => {
             tiny wins, you’ll start to create those feel-good responses well
             before the actual habit is formed. For example, if you’re starting a
             healthier lifestyle, say something positive to yourself after every
-            thing you do that’s centered on healthy choices. Made dinner? Great!
-            Scheduled two workouts for the week? Way to go! Took 2 minutes in
-            the morning to meditate? You’re amazing! Don’t forget about the
-            small stuff – it adds up.
+            thing you do that’s centered on healthy choices. Way to go! Took 2
+            minutes in the morning to meditate? You’re amazing! Don’t forget
+            about the small stuff – it adds up.
           </p>
         </div>
 

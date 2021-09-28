@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button, FormGroup, Input, Label } from "reactstrap";
 import "./ToDoList.css";
 
 class ToDoList extends React.Component {
@@ -104,13 +105,13 @@ class ToDoList extends React.Component {
           value={this.state.newItem}
           onChange={(e) => this.updateInput("newItem", e.target.value)}
         />
-        <button
+        <Button
           className="add-btn btn-floating"
           onClick={() => this.addItem()}
           disabled={!this.state.newItem.length}
         >
           <i class="material-icons"> + </i>
-        </button>
+        </Button>
         <div className="container">
           <div
             className="scroll"
@@ -128,12 +129,12 @@ class ToDoList extends React.Component {
                 return (
                   <li className="listItem" key={item.id}>
                     {item.value}
-                    <button
+                    <Button
                       className="btn btn-floating"
                       onClick={() => this.deleteItem(item.id)}
                     >
-                      <i class="material-icons">x</i>
-                    </button>
+                      <i class="material-icons">Completed</i>
+                    </Button>
                   </li>
                 );
               })}
